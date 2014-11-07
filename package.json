@@ -1,6 +1,10 @@
 {
   "name": "semantic-ui-input",
+<<<<<<< HEAD
   "version": "1.0.0-beta",
+=======
+  "version": "1.0.0",
+>>>>>>> f30204ec1ab12fc606af77c59b1597be2b86cda8
   "title": "Semantic UI - Input",
   "description": "Single component release of input",
   "homepage": "http://www.semantic-ui.com",
