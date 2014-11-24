@@ -5,13 +5,25 @@
 - **Dropdown** - Many new content types now work inside dropdowns, headers, dividers, images, inputs, labels and more
 - **Form** - Inputs now use 1em font size and correctly match selection dropdown height
 
+### Version 0.18.0 - June 6, 2014
+
+- **Modal** - Modals now focus on first input if available **Thanks Knotix**
+
+### Version 0.17.0 - May 9, 2014
+
+- **Form, Input** - Fixes ``ui input`` to work correctly inside ``inline field``
+
+### Version 0.15.5 - April 11, 2014
+
+- **Checkbox** - Fixes ``ui checkbox`` to obey ``disabled`` property of input
+
 ### Version 0.15.0 - Mar 14, 2014
 
 - **Form** - Forms, Dropdowns, and Inputs now have matching padding size, and use 1em font size to appear same size as surrounding text
 - **Input** - Fixes slight error in corner label rounding **Thanks MohammadYounes**
 - **Checkbox** - Checkboxes can now have multiple inputs inside, for use with .NET and other languages that insert their own hidden inputs
 
-### Version 0.13.1- Feb 28, 2014
+### Version 0.13.1 - Feb 28, 2014
 
 - **Input** - Fixes ui input to inherit form sizing
 
