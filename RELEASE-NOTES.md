@@ -1,3 +1,17 @@
+### Version 1.3.0 - December 17, 2014
+
+- **Dropdown** - Search Dropdown is now much more responsive, js improvements and input throttling added.Throttling defaults to `50ms` and can be modified with settings ``delay.search``
+
+### Version 1.2.0 - December 08, 2014
+
+- **Checkbox** - JS Checkbox now handles several variations of html. Labels can be before inputs, after, or not included at all. This should work better with server side form generation.
+
+### Version 1.1.0 - December 02, 2014
+
+- **Input** - ``transparent input`` can now be ``inverted``
+- **Input** - ``ui action input`` can now accomodate ``ui button`` that adjust padding from default
+- **Dropdown** - Fix ``action input`` used inside ``ui dropdown`` to appear correctly **Thanks ordepdev**
+
 ### Version 1.0.0 - November 24, 2014
 
 - **Form** - Date field has been removed, use a ``ui icon input`` with a ``calendar icon`` instead
