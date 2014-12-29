@@ -1,3 +1,7 @@
+### Version 1.4.0 - December 22, 2014
+
+- **Form** - Form inputs without ``type`` specified are now formatted **Thanks PSyton**
+
 ### Version 1.3.0 - December 17, 2014
 
 - **Dropdown** - Search Dropdown is now much more responsive, js improvements and input throttling added.Throttling defaults to `50ms` and can be modified with settings ``delay.search``
