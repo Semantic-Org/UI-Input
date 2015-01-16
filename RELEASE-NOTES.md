@@ -1,3 +1,14 @@
+### Version 1.7.0 - January 14, 2015
+
+- **Site** - Form input highlighting color added (helps differentiate form colors with autocompleted fields). Default text highlighting color moved from highlighter yellow to a mellow blue.
+- **Dropdown** - Search dropdown input can now have backgrounds. Fixes issues with autocompleted search dropdowns which have forced yellow "autocompleted" bg.
+- **Dropdown** - Fixes dropdown search input from filtering text values when input is inside menu, i.e "In-Menu Search"
+
+### Version 1.5.0 - December 30, 2014
+
+- **Form** - ``ui input`` now receives the same formatting as a normal input inside an ``inline field``
+- **Input** - Fixed bug when ``ui action input`` uses a ``ui icon button``, button was receiving `i.icon` formatting.
+
 ### Version 1.4.0 - December 22, 2014
 
 - **Form** - Form inputs without ``type`` specified are now formatted **Thanks PSyton**
