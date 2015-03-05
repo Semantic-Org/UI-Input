@@ -1,3 +1,7 @@
+### Version 1.11.0 - March 3, 2015
+
+- **Form** - Added `input[type="search"]` styles to `ui form`
+
 ### UI Changes
 
 - **Input** - Input with dropdowns is now much easier, see docs. `action input` and `labeled input` now use `display: flex`. `ui action input` now supports `<button>` tag usage (!) which support `flex` but not `table-cell`
