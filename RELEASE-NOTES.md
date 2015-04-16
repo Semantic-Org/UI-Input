@@ -1,3 +1,7 @@
+### Version 1.12.0 - April 13, 2015
+
+- **Input** - Backports fix from `2.x` for `ui fluid input` not appearing correctly.
+
 ### Version 1.11.0 - March 3, 2015
 
 - **Form** - Added `input[type="search"]` styles to `ui form`
