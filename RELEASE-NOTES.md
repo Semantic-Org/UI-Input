@@ -1,3 +1,8 @@
+### Version 1.12.1 - April 26, 2015
+
+- **Input** - Fixes labeled inputs not adjusting correctly with flex. **Backported from 2.0**
+- **Input** - Fixes placeholder text color prefixes for `webkit` **Backport from 2.0**
+
 ### Version 1.12.0 - April 13, 2015
 
 - **Input** - Backports fix from `2.x` for `ui fluid input` not appearing correctly.
