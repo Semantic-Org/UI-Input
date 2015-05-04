@@ -1,3 +1,7 @@
+### Version 1.12.2 - May 4, 2015
+
+- **Dropdown** - Fixed `left` and `right` arrow does not move input cursor with `visible selection dropdown`. Event accidentally prevented by `sub menu` shortcut keys.
+
 ### Version 1.12.1 - April 26, 2015
 
 - **Input** - Fixes labeled inputs not adjusting correctly with flex. **Backported from 2.0**
