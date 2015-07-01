@@ -1,3 +1,21 @@
+### Version 2.0.0 - June 30, 2015
+
+- **Input** - `pointer-events` have been removed from `icon` in `icon input` unless a `link icon` is used. This is to make sure the hitbox for focusing an input includes the icon.
+- **Input** - All `input` types use `flexbox` for layout
+- **Site** - Added many new site variables, including the ability to control input size across all UI `inputPadding`, along with more border colors, accents, and colors.
+- **Checkbox** - Checkbox will now gracefully correct behaviors invoked on the child input element instead of the `ui checkbox`.
+- **Form** - Added placeholder color rules for IE, `ms-input-placeholder`
+- **Input** - Added placeholder color rules for IE, `ms-input-placeholder`
+- **Input** - Action input now supports multiple buttons, and dropdown
+- **Search** - Search `prompt` now has focus styles defined if not using `ui input`
+- **Dropdown** - Fixes `onChange` to fire when input value changes, not just when menu UI changes
+- **Form** - Form sizes and input sizes now inherit from `site.variables`
+- **Form/Input** - `ui labeled input` inside `form` will no longer escape column width. `ui fluid input` will now use input widths shorter than browser default.
+- **Input** - Fixed improper left padding on `transparent left icon input` **Thanks @zxfwinder**
+- **Input** - Fixed `placeholder` color not changing correctly on focus **Thanks @zxfwinder**
+- **Input** - Fixed right padding on `labeled input` that were not `corner labeled`
+- **Input** - Input now use `em` instead of `rem` so they will inherit the size of the elements they are nested inside
+
 ### Version 1.12.2 - May 4, 2015
 
 - **Dropdown** - Fixed `left` and `right` arrow does not move input cursor with `visible selection dropdown`. Event accidentally prevented by `sub menu` shortcut keys.
@@ -13,6 +31,7 @@
 
 ### Version 1.11.0 - March 3, 2015
 
+- **Input** - Fix bug with vertical centering of `ui action input` inside `menu` due to `flexbox` changes
 - **Form** - Added `input[type="search"]` styles to `ui form`
 
 ### UI Changes
