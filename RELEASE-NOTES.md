@@ -1,3 +1,7 @@
+### Version 2.0.3 - July 8, 2015
+
+- **Input** - Fixed errored input field having incorrect border radius with `labeled input`
+
 ### Version 2.0.0 - June 30, 2015
 
 - **Input** - `pointer-events` have been removed from `icon` in `icon input` unless a `link icon` is used. This is to make sure the hitbox for focusing an input includes the icon.
