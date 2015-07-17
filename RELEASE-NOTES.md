@@ -1,3 +1,7 @@
+### Version 2.0.4 - July 17, 2015
+
+- **Input** - Fixed `left action input` displaying with incorrect `input` border radius inside `ui form` [#2638](https://github.com/Semantic-Org/Semantic-UI/issues/2638)
+
 ### Version 2.0.3 - July 8, 2015
 
 - **Input** - Fixed errored input field having incorrect border radius with `labeled input`
