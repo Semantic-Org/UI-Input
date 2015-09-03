@@ -1,3 +1,9 @@
+### Version 2.1.3 - Sep 03, 2015
+
+- **Input** - Fixes regression where `ui icon input` inside forms were not correct width [#2953](https://github.com/Semantic-Org/Semantic-UI/issues/2953)
+- **Input** - Fixes typo in focused placeholder text color preventing the value from being used [#2939](https://github.com/Semantic-Org/Semantic-UI/issues/2939)
+- **Input** - `action input` now correctly show focused border on button side, and avoids duplicating borders
+
 #### Features
 
 - **Dropdown** - Dropdown will now automatically update selected values when hidden input value changes (so long as `change` event is triggered) [#2626](https://github.com/Semantic-Org/Semantic-UI/issues/2626)
