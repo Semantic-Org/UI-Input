@@ -1,3 +1,12 @@
+### Version 2.2.0 - June 26, 2016
+
+- **Dropdown** - Multiple select dropdown now sizes current dropdown input based on rendered width of a hidden element, not using an estimate based on character count. This means search will never break to a second line earlier than would normally fit in current line.
+- **Site** - Added new `@inputColor` and `@inputPlaceholderColor` global variables that now control placeholder text styles across all components.
+- **Dropdown** - Long dropdown text entry with `allowAdditions` would cause input to mistakingly drop to next line early [#3743](https://github.com/Semantic-Org/Semantic-UI/issues/3743)
+- **Dropdown** - Search selection would lose search input focus when clicking on a choice [#3790](https://github.com/Semantic-Org/Semantic-UI/issues/3790)
+- **Input** - Fixed `:active` styles appearing on disabled input, when input is disabled using `disabled` property [#3907](https://github.com/Semantic-Org/Semantic-UI/issues/3907)
+- **Input** - Fixes issue with `dropdown` or button on the left side of an `action` input not properly rounding
+
 ### Version 2.1.3 - Sep 03, 2015
 
 - **Input** - Fixes regression where `ui icon input` inside forms were not correct width [#2953](https://github.com/Semantic-Org/Semantic-UI/issues/2953)
