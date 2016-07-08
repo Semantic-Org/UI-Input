@@ -1,3 +1,7 @@
+### Version 2.2.2 - July 07, 2016
+
+- **Dropdown** - Fixed "pointer" cursor appearing in hitbox above search input in `search selection`, now all input area will appear with "text" input cursor
+
 ### Version 2.2.0 - June 26, 2016
 
 - **Dropdown** - Multiple select dropdown now sizes current dropdown input based on rendered width of a hidden element, not using an estimate based on character count. This means search will never break to a second line earlier than would normally fit in current line.
