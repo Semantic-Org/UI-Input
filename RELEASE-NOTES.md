@@ -1,3 +1,8 @@
+### Version 2.2.5 - October, 27, 2016
+
+- **Search** - Fixed issue where input may attempt to refocus when search element is immediately removed from browser's DOM after a result is clicked.
+- **Flat Theme** - Fixes inverted input color
+
 ### Version 2.2.3 - August 21, 2016
 
 - **Modal** - Modal will now focus first tabable element, not just `input` [#4370](https://github.com/Semantic-Org/Semantic-UI/issues/4370)
