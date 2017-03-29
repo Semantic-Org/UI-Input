@@ -1,3 +1,7 @@
+### Version 2.2.10 - March 28, 2017
+
+- **Dropdown** - Fix search input inside dropdown menu causing dropdown to close before selection when selecting an item #5113
+
 #### Dropdown
 
 - **Dropdown** - Dropdown using search input inside of menu are now tabbable [#4490](https://github.com/Semantic-Org/Semantic-UI/pull/4490)
