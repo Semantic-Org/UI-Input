@@ -1,3 +1,8 @@
+### Version 2.2.11 - July 11, 2017
+
+- **Input** - Fix issue where transparent input had a border radius and could cut off descendors [#5281](https://github.com/Semantic-Org/Semantic-UI/issues/5281)
+- **Input** - Fixes disabled style being applied twice on input **Thanks @levithomason** [#5284](https://github.com/Semantic-Org/Semantic-UI/issues/5284)
+
 ### Version 2.2.10 - March 28, 2017
 
 - **Dropdown** - Fix search input inside dropdown menu causing dropdown to close before selection when selecting an item #5113
