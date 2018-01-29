@@ -1,3 +1,7 @@
+### Version 2.2.14 - Jan 29, 2018
+
+- **Dropdown** - Fixed issue where using `ui input` in a dropdown menu could cause the input to be too wide in some cases **Thanks @banandrew** [#5085](https://github.com/Semantic-Org/Semantic-UI/issues/5085)
+
 ### Version 2.2.11 - July 11, 2017
 
 - **Input** - Fix issue where transparent input had a border radius and could cut off descendors [#5281](https://github.com/Semantic-Org/Semantic-UI/issues/5281)
